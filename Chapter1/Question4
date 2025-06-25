@@ -1,0 +1,11 @@
+fn main() {
+    let global_variable="sindhu";
+    {
+        let local_variable="sravya";
+        println!("local_variable:{}",local_variable);
+        let global_variable="sridevi";
+        println!("global_variable:{}",global_variable)
+    }
+    println!("global_variable:{}",global_variable);
+    
+}
