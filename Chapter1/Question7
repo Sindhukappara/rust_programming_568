@@ -1,0 +1,6 @@
+fn main() {
+    let Element =(10,20, "Rust");
+    println!("First Element: {}", Element.0);
+    println!("Second Element: {}", Element.1);
+    println!("Third Element: {}", Element.2);
+}
